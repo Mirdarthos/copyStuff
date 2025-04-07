@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility
+Comment[en_GB]=Copy "OK" thumbs up to clipboard
+Comment=Copy "OK" thumbs up to clipboard
+Exec=sh -c "bash \\$HOME/.local/bin/copyStuff.sh cps ok"
+Icon=copyq
+Name[en_GB]=CopyOK
+Name=CopyOK
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0

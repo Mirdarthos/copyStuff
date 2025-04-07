@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility
+Comment[en_GB]=Copy "no" red cross to clipboard
+Comment=Copy "no" red cross to clipboard
+Exec=sh -c "bash \\$HOME/.local/bin/copyStuff.sh cps no"
+Icon=copyq
+Name[en_GB]=CopyNo
+Name=CopyNo
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0

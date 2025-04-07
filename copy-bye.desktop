@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility
+Comment[en_GB]=Copy bye afternoon text to cllipboard
+Comment=Copy bye afternoon text to cllipboard
+Exec=sh -c "bash \\$HOME/.local/bin/copyStuff.sh cps bye"
+Icon=copyq
+Name[en_GB]=CopyBye
+Name=CopyBye
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
