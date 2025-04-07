@@ -36,6 +36,24 @@ source <~/.bashrc or ~/.zshrc>
 
 ...and you _should_ be good to go. It should also work after a reboot, if that will be eaier. Or a simple relogin. And it should persist after a reboot/relogin.
 
+### Optional
+
+There is  also the option to create shortcuts to do the copying. _(Yes, I do this, what can I say? It makes my life easier.)_ There are 3 pre-defined strings to copy in `copyStuff.conf` and 3 matching `.desktop` files to use as examples.
+
+Simply copy the `.desktop` files into `$HOME/.local/share/applications/`:
+
+```
+cp copy-*.desktop $HOME/.local/share/applications/
+```
+
+Edit and change the as required, and update the `.desktop` file database:
+
+```
+update-desktop-database $HOME/.local/share/applications/
+```
+
+The shortcuts should now appear in you launcher, by default in the _Utilities_ section._(At least that's my experience on KDE Plasma.)_
+
 ## Dependencies
 
 Well, I don't belive in re-inventing the wheel, so I use some things that have beenn built before so why would I re-invent those or roll my own? So without further ado:
