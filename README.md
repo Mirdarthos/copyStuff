@@ -77,6 +77,6 @@ cps -h
 cps ok
 ```
 
-This will copy whatever is defined as `bye` in the `$HOME/.config/copyStuff.conf` config file.
+This will copy whatever is defined as `ok` in the `$HOME/.config/copyStuff.conf` config file.
 
 > ## I did not license this. So there is no license. Because...FOR THIS!?
